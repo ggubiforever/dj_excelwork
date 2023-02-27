@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>753</width>
+    <height>748</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>50</y>
+      <width>301</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Process</string>
+    </property>
+    <widget class="QPushButton" name="openexcel_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>150</y>
+       <width>231</width>
+       <height>46</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Write</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>221</width>
+       <height>46</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Convert</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>301</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <widget class="QPushButton" name="openexcel">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>120</y>
+       <width>150</width>
+       <height>46</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>통관서식</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="openexcel_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>150</width>
+       <height>46</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BOM분류</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PushButton_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>190</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>간단서식(자통)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>60</y>
+       <width>102</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>250</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>수입잔량작업</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>300</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>제품코드 엑셀 생성(엔컴)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>0</y>
+      <width>721</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>동진섬유</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>440</y>
+      <width>341</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>경진섬유</string>
+    </property>
+    <widget class="QPushButton" name="kj_1_mergeExcel">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>261</width>
+       <height>46</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Excel 병합(관세사분)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="kj_2_bom">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>110</y>
+       <width>150</width>
+       <height>46</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BOM 작업</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>170</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>흥신 수출통관분 - 제품코드 완성</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="Quit_But">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>470</y>
+      <width>150</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get out</string>
+    </property>
+   </widget>
+   <zorder>groupBox_3</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>groupBox_2</zorder>
+   <zorder>groupBox_4</zorder>
+   <zorder>Quit_But</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>753</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>openexcel</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>openfile1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>131</x>
+     <y>236</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>185</x>
+     <y>90</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>openexcel_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>openfile2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>163</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>351</x>
+     <y>298</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>openexcel_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>writeexcel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>501</x>
+     <y>266</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>338</x>
+     <y>52</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PushButton_1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>make_simpleform()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>293</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>290</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>vlookup_bom()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>565</x>
+     <y>186</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>562</x>
+     <y>45</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>kj_1_mergeExcel</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>openfile3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>151</x>
+     <y>556</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>415</x>
+     <y>428</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>kj_2_bom</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>openfile4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>105</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>403</x>
+     <y>570</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>openfile5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>210</x>
+     <y>361</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>408</x>
+     <y>473</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>openfile6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>663</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>393</x>
+     <y>674</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>jepum_excel_ncom()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>380</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>655</x>
+     <y>465</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>openfile2()</slot>
+  <slot>openfile1()</slot>
+  <slot>writeexcel()</slot>
+  <slot>make_simpleform()</slot>
+  <slot>vlookup_bom()</slot>
+  <slot>openfile3()</slot>
+  <slot>openfile4()</slot>
+  <slot>openfile5()</slot>
+  <slot>openfile6()</slot>
+  <slot>jepum_excel_ncom()</slot>
+ </slots>
+</ui>
